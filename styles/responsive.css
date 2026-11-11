@@ -1,0 +1,13 @@
+@media (max-width: 900px) {
+  .app { grid-template-columns: 1fr; }
+  .sidebar { padding: 10px; }
+  .sidebar nav { display: flex; flex-wrap: wrap; gap: 4px; }
+  .nav-title { width: 100%; margin: 8px 4px 2px; }
+  .topbar { padding: 10px 14px; }
+  .topbar input[type=search] { width: 100%; }
+  .content { padding: 14px; }
+}
+@media (max-width: 520px) {
+  dl.info { grid-template-columns: 1fr; }
+  .kpi .value { font-size: 22px; }
+}

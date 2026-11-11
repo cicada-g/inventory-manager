@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Iniciar sesión · Inventory Manager</title><link rel="stylesheet" href="../../styles/variables.css"><link rel="stylesheet" href="../../styles/main.css"><link rel="stylesheet" href="../../styles/responsive.css"></head><body><main class="auth"><div class="card"><div class="logo">📦 Inventory Manager</div><h1>Iniciar sesión</h1>
+<div class="alert err" role="alert">Ejemplo de validación: el correo o la contraseña son incorrectos.</div>
+<form action="select-business.html" method="get"><div class="form-grid">
+<div class="full"><label for="email">Correo electrónico</label><input id="email" name="email" type="email" value="carlos@elprogreso.co"><div class="help err">Ingresa un correo válido.</div></div>
+<div class="full"><label for="pass">Contraseña</label><input id="pass" name="pass" type="password" value="123456"></div></div>
+<div class="check-row"><input id="rem" type="checkbox" checked><label for="rem">Recordar sesión</label></div>
+<p><a href="#modal-recover">¿Olvidaste tu contraseña?</a></p>
+<button class="btn" type="submit" style="width:100%">Iniciar sesión</button></form></div>
+<div class="modal" id="modal-recover"><div class="modal-box"><h2>Recuperar contraseña</h2><p class="muted">Demostración: se enviaría un enlace al correo registrado.</p>
+<div class="form-actions"><a class="btn" href="#">Entendido</a></div></div></div></main></body></html>
